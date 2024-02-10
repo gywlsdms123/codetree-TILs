@@ -2,4 +2,4 @@ arr = input().split()
 
 arr.sort()
 
-print(int(arr[1]))
+print(arr[1])
