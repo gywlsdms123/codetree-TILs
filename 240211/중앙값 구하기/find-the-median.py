@@ -1,5 +1,7 @@
-arr = input().split()
+a, b, c = map(int, input().split())
 
-arr.sort()
+num_list = [a, b, c]
 
-print(arr[1])
+num_list.sort()
+
+print(num_list[1])
